@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="action_add">Thêm</string>
+    <string name="action_edit">Sửa</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_settings">Cài đặt</string>
+</resources>
