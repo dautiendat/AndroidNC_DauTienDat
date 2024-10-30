@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/nameSong_Controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoa dại"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:id="@+id/nameAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Vol.4 - Lân Nhã"/>
+        <TextView
+            android:id="@+id/timePlaySong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="00:00/00:40"
+            android:gravity="end"/>
+    </LinearLayout>
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="100"
+        android:padding="0dp"
+        android:foregroundTint="@color/black"
+        android:progressBackgroundTint="@color/black"
+        android:progressTint="@color/black"
+        android:thumbTint="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/next_button"
+            android:rotation="180"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/play_button"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/imgNext"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/next_button"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</LinearLayout>
